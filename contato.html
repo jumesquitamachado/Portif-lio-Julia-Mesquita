@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Julia Mesquita</title>
+    <link rel="stylesheet" href="contato.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="fluid-background">
+
+    <header>
+        <li><img src="ícone JM.png" alt=""></li>
+        <li class="margem"><a href="index.html">Início</a></li>
+        <li class="margem"><a href="sobremim.html">Sobre mim</a></li>
+        <li class="margem"><a href="habilidades.html">Habilidades</a></li>
+        <li class="margem"><a href="contato.html">Contato</a></li>
+    </header>
+
+    <h1>Entre em Contato</h1>
+
+    <div id="div1">
+
+        <label for="">Nome</label>
+        <input type="text" placeholder="Seu Nome" id="nome" oninput=mascara_nome()>
+
+        <label for="">Telefone</label>
+        <input type="tel" placeholder="+55 (31) 9 9999-9999" id="telefone" maxlength="20" oninput=mascara_telefone()>
+
+        <label for="">E-mail</label>
+        <input type="email" placeholder="seuemail@gmail.com" id="email" oninput=mascara_email()>
+
+        <label for="">Mensagem</label>
+        <input type="text" placeholder="Digite sua mensagem aqui!" id="mnsg" oninput=mascara_mensagem()>
+    
+    </div>
+
+    </div>
+
+</body>
+</html>
